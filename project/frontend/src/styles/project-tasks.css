@@ -1,0 +1,119 @@
+
+.project-tasks {
+    margin-bottom: 100px;
+}
+
+.high {
+    background-color: var(--high-color);
+}
+
+.highest {
+    background-color: var(--highest-color);
+}
+
+.default {
+    background-color: var(--white-color);
+}
+
+.project-tasks h1 {
+    color: var(--blue-color);
+    text-transform: uppercase;
+}
+
+.status-card {
+    border: 2px solid var(--blue-color);
+    border-radius: 30px;
+    height: fit-content;
+    padding-bottom: 25px;
+    background-color: var(--white-color);
+}
+
+.status-card-all {
+    display: grid;
+    grid-template-columns: repeat(6, 270px);
+    grid-auto-rows: auto;
+    gap: 40px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.status-name {
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-radius: 25px 25px 0 0;
+    height: 35px;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.task-card {
+    width: 200px;
+    height: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--blue-color);
+    border-top: 2px solid var(--blue-color);
+    margin-top: 25px;
+    font-size: 16px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.task-card:hover {
+    transform: scale(1.1);
+}
+
+
+.task-info {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.parent-element {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.parent-element p {
+    margin-left: 5px;
+}
+
+.task-btn {
+    width: 200px;
+    height: 40px;
+    color: var(--blue-color);
+    background-color: inherit;
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 20px 60px 20px 20px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.task-btn:hover {
+    background-color: var(--blue-color);;
+    color: var(--white-color);
+    transform: scale(1.1);
+}
+
+.task-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.task-info-click {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    color: var(--black-color);
+}
+
+.task-info-click svg:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}

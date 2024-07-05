@@ -1,0 +1,79 @@
+.logomain {
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+}
+
+.logomain p {
+    color: var(--blue-color);
+    font-size: 36px;
+    margin-top: -50px;
+    margin-left: 110px;
+}
+
+.team {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    color: #c6d6fc;
+    z-index: 1;
+}
+
+.info {
+    width: 1500px;
+    margin: 0 auto;
+    background-color: inherit;
+    margin-top: 150px;
+    z-index: 100;
+}
+
+.info1 {
+    color: var(--black-color);
+    font-size: 32px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    z-index: 100;
+}
+
+.info1-1 {
+    max-width: 900px;
+    z-index: 100;
+}
+
+.info2 {
+    color: var(--black-color);
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.main-btn {
+    width: 200px;
+    height: 50px;
+    background-color: inherit;
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    color: var(--blue-color);
+}
+
+.main-btn:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transform: scale(1.1);
+}
+
+.btns-log-reg {
+    display: flex;
+    margin: 100px 0 100px 0;
+    justify-content: space-around;
+}

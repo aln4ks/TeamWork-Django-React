@@ -1,0 +1,29 @@
+.deleted-task-item {
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    color: var(--black-color);
+}
+
+.deleted-tasks {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+}
+
+.deleted-task-btns {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.deleted-task-btns svg {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.deleted-task-btns svg:hover {
+    transform: scale(1.1);
+    color: var(--blue-color);
+}

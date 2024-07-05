@@ -1,0 +1,66 @@
+.comment-item {
+    background-color: var(--white-color);
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.comment-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.task-modal h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.new-comment-btn {
+    cursor: pointer;
+    color: var(--white-color);
+    transition: 200ms ease-in-out;
+    position: absolute;
+    right: 50px;
+}
+
+.new-comment-btn:hover {
+    transform: scale(1.1);
+    color: olivedrab;
+}
+
+.teaxtarea-comment {
+    resize: none;
+    width: 785px;
+    height: 50px;
+    background-color: inherit;
+    border: 2px solid var(--white-color);
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    color: var(--white-color);
+}
+
+.delete-comment-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: var(--highest-color);
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.delete-comment-btn:hover {
+    color: var(--high-color);
+    transform: scale(1.1);
+}
+
+.comment-item p{
+    max-width: 750px;
+    word-wrap: break-word;
+}

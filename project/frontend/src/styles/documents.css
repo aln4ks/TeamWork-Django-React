@@ -1,0 +1,50 @@
+.documents li {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+}
+
+.documents a {
+    color: var(--white-color);
+    transition: 200ms ease-in-out;
+}
+
+.documents a:hover {
+    color: var(--blue-color);
+    font-size: 20.5px;
+}
+
+.documents-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.document-delete {
+    color: var(--highest-color);
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    margin-left: 30px;
+}
+
+.document-delete:hover {
+    color: var(--high-color);
+    transform: scale(1.1);
+}
+
+.input-document {
+    background-color: none;
+    border: 2px solid var(--white-color);
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    outline: none;
+    transition: 200ms ease-in-out;
+}
+
+.input-document:hover {
+    background-color: var(--white-color);;
+    color: var(--black-color);
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    left: 1%;
+}
+
+.logo p {
+    color: var(--black-color);
+    font-size: 36px;
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.team {
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+}
+
+.links {
+    font-size: 18px;
+    position: absolute;
+    right: 7%;
+    top: 15px;
+}
+
+.link {
+    color: var(--black-color);
+    margin-left: 30px;
+    transition: 300ms ease-in-out;
+}
+
+.link:hover {
+    color: var(--violet-color);
+}

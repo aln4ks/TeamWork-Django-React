@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.footer {
+    min-height: 40px;
+    min-width: 100%;
+    background-color: inherit;
+    position: fixed;
+    bottom: 0;
+    color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
